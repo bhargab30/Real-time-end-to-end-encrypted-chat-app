@@ -3,13 +3,13 @@ import {getAuth,getRedirectResult,GoogleAuthProvider,signInWithRedirect,signInWi
 import { getDatabase, set, ref, push, child, onValue, onChildAdded } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-database.js";
 
 const firebaseConfig ={
-  apiKey: "AIzaSyCzfTl0gL0pBKl5IjobKZkyh7l9d-fXWoc",
-  authDomain: "letschat-593cf.firebaseapp.com",
-  databaseURL: "https://letschat-593cf-default-rtdb.firebaseio.com",
-  projectId: "letschat-593cf",
-  storageBucket: "letschat-593cf.appspot.com",
-  messagingSenderId: "495174547501",
-  appId: "1:495174547501:web:6714bc0b5695ccb92fe0a4"
+  apiKey: "APIKey from firebase",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
