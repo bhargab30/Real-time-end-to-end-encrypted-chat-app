@@ -1,0 +1,179 @@
+body{
+	background-color: #212121;
+	overflow: hidden;
+}
+
+
+nav{
+	background: darkslategrey;
+	padding: 2px;
+	max-width: 896px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid rgb(30, 53, 53);
+}
+
+nav span{
+	font-size: 20px;
+	color: white;
+	margin-left: 5px;
+}
+
+
+.logo{
+	width: 50px;
+	
+	margin: 5px 10px;
+	border-radius: 30px;
+
+}
+
+.container::-webkit-scrollbar{
+	width:0.5em;
+}
+
+
+
+.container::-webkit-scrollbar-thumb{
+background-color: #404040;
+border-radius: 5px;
+
+}
+
+.container{
+	max-width: 900px;
+	background: #128C7E;
+	margin: auto;
+	height: 73vh;
+	overflow-y: auto;
+	padding-top: 30px;
+}
+
+
+
+
+.message{
+	width: 85%;
+	padding: 10px ;
+	margin: 5px 0px;
+	margin-right: 5px;
+	margin-left: auto;
+	border: 2px solid black;
+	border-radius: 12px;
+	float: right;
+	
+	overflow-wrap: break-word;
+}
+
+.leftMsg {
+	background: darkslategrey;
+    color: white;
+}
+.rightMsg {
+	background: #25D366;
+}
+
+
+.left{
+    float: left;
+    clear: both;
+   
+}
+.right{
+	float: right;
+	clear: both;
+}
+
+
+.joined_left{
+	text-align: center;
+	clear: both;
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+}
+
+.send{
+	max-width: 900px;
+	margin: 0px auto;
+	background: #128C7E;;
+	padding: 10px 0px;
+}
+#send-container{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+
+#messageInp{
+	width: 85%;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 30px;
+	
+	padding: 0px 20px;
+}
+.btn{
+	cursor: pointer;
+	width: 60px;
+    height: 36px;
+    background: #25D366;
+    border: 2px solid darkgreen;
+    border-radius: 9px;
+	margin-left: 1px;
+}
+
+
+
+.login-page {
+	background-image: linear-gradient(#25D366, #128C7E);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	display: none;
+}
+.active{
+	display: block;
+}
+#login-card {
+	position: relative;
+	top: calc(50vh - 144px);
+	left: calc(50vw - 210px);
+	padding-top: 36px;
+	padding-bottom: 66px;
+	width: 420px;
+	text-align: center;
+	background-color: white;
+	border-radius: 22px;
+}
+
+.login-button {
+	cursor: pointer;
+	color: white;
+	padding: 12px;
+	border-radius: 8px;
+	display: inline-block;
+}
+  
+  
+.google {
+	background-color: #4285f4;
+	color: white;
+}
+  
+.propic {
+	width: 40px;
+	border-radius: 70px;
+	margin:0px 5px;
+}
+
+.msgCont{
+	display: flex;
+	align-items: center;
+	
+	width: 70%;
+}
