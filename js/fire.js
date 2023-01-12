@@ -2,6 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase
 import {getAuth,getRedirectResult,GoogleAuthProvider,signInWithRedirect,signInWithPopup} from "https://www.gstatic.com/firebasejs/9.8.3/firebase-auth.js";
 import { getDatabase, set, ref, push, child, onValue, onChildAdded } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-database.js";
 
+//import from firebase
 const firebaseConfig ={
   apiKey: "APIKey from firebase",
   authDomain: "",
